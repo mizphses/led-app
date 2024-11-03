@@ -27,12 +27,8 @@ text2 = sys.argv[2]
 # テキストを描画するための画像を作成
 image = Image.new("RGB", (128, 32))
 draw = ImageDraw.Draw(image)
-draw.text((35, 0), text, font=font, fill=(255,255,255))
-draw.text((35, 15), text2, font=font, fill=(255,255,255))
+draw.text((10, 0), text, font=font, fill=(255,255,255))
+draw.text((10, 15), text2, font=font, fill=(255,255,255))
 
-dots = Image.open("dot.png")
-dots = dots.resize((32, 32))
-image.paste(dots, (0, 0, 32, 32))
-
-# 画像をLEDマト���ックスに表示
+# 画像をLEDマトリックスに表示
 matrix.SetImage(image.convert('RGB'))

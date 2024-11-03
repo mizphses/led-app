@@ -48,8 +48,6 @@
 - cython3
   - ライブラリをビルドするのに使う
   - `sudo apt install cython3`
-- フォント
-  - 
 
 #### Python 用に RGB LED Matrix 制御ライブラリをインストール
 
@@ -60,6 +58,12 @@ $ git clone https://github.com/hzeller/rpi-rgb-led-matrix.git ~/rpi-rgb-led-matr
 $ cd ~/rpi-rgb-led-martix/bindings/python
 $ make build-python
 $ make install-python
+```
+
+#### フォントとかをダウンロード
+```bash
+$ git clone https://github.com/mizphses/led-app.git
+$ bash ./download-noto-jp.sh
 ```
 
 ## 参考
