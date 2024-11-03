@@ -5,7 +5,7 @@ from time import sleep
 # LEDマトリックスの設定
 options = RGBMatrixOptions()
 options.rows = 32
-options.cols = 128
+options.cols = 64
 options.chain_length = 1
 options.parallel = 1
 options.hardware_mapping = 'regular'  # または 'adafruit-hat' など

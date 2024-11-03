@@ -64,7 +64,8 @@ $ sudo make install-python
 #### フォントとかをダウンロード
 
 ```bash
-$ git clone https://github.com/mizphses/led-app.git
+$ git clone https://github.com/mizphses/led-app.git ~/led-app
+$ cd ~/led-app
 $ bash ./download-noto-jp.sh
 ```
 
