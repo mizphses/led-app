@@ -6,7 +6,8 @@
 
 ### 使用ハードウェア
 
-- Raspberry Pi 4B or 5
+- Raspberry Pi 4B
+  - 5 ではまだ動かないらしい
   - メモリの要件としては、画像のビルドにどれくらいメモリ使うか次第だと思う。どの機種でも依存関係のインストールはできると思う。
   - OS: Raspberry Pi OS (Raspbian) Lite 64bit
   - MicroSD カードは 1GB くらい空いてたら動くと思う。
@@ -55,7 +56,7 @@
 
 ```bash
 $ git clone https://github.com/hzeller/rpi-rgb-led-matrix.git ~/rpi-rgb-led-matrix
-$ cd ~/rpi-rgb-led-martix/bindings/python
+$ cd ~/rpi-rgb-led-matrix/bindings/python
 $ make build-python
 $ sudo make install-python
 ```
