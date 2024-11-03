@@ -32,3 +32,5 @@ draw.text((10, 15), text2, font=font, fill=(255,255,255))
 
 # 画像をLEDマトリックスに表示
 matrix.SetImage(image.convert('RGB'))
+
+sleep(1000)
