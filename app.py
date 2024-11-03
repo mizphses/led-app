@@ -15,7 +15,7 @@ options.disable_hardware_pulsing = True
 matrix = RGBMatrix(options=options)
 
 # 日本語フォントの読み込み
-font_path = "./fonts/sourcehansansjp/OTF/Japanese/SourceHanSans-Bold.otf"
+font_path = "./fonts/NotoSansCJKjp-Regular.otf"
 font_size = 14
 font = ImageFont.truetype(font_path, font_size)
 
