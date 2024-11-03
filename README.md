@@ -61,9 +61,16 @@ $ make install-python
 ```
 
 #### フォントとかをダウンロード
+
 ```bash
 $ git clone https://github.com/mizphses/led-app.git
 $ bash ./download-noto-jp.sh
+```
+
+#### Python 上の依存関係のインストール
+
+```bash
+$ pip install -r requirements.txt
 ```
 
 ## 参考
