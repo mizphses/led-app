@@ -57,7 +57,7 @@
 $ git clone https://github.com/hzeller/rpi-rgb-led-matrix.git ~/rpi-rgb-led-matrix
 $ cd ~/rpi-rgb-led-martix/bindings/python
 $ make build-python
-$ make install-python
+$ sudo make install-python
 ```
 
 #### フォントとかをダウンロード
